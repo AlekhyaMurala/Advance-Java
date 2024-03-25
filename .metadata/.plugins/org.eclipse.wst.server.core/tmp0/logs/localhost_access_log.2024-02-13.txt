@@ -1,0 +1,12 @@
+127.0.0.1 - - [13/Feb/2024:10:39:55 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [13/Feb/2024:10:39:57 +0530] "GET /FirstApplication/ HTTP/1.1" 404 772
+0:0:0:0:0:0:0:1 - - [13/Feb/2024:10:39:57 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [13/Feb/2024:10:40:22 +0530] "GET /FirstApplication/FirstServlet HTTP/1.1" 200 21
+127.0.0.1 - - [13/Feb/2024:15:42:54 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [13/Feb/2024:15:42:56 +0530] "GET /RegistrationApplication/ HTTP/1.1" 404 779
+0:0:0:0:0:0:0:1 - - [13/Feb/2024:15:42:56 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [13/Feb/2024:15:43:03 +0530] "GET /RegistrationApplication/Registration.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [13/Feb/2024:15:43:41 +0530] "GET /RegistrationApplication/RegisterServlet?username=Alekhya&password=ghjikl&phonenumber=987654321&email=alekhya0264%40gmail.com&gender=female&dob=2024-02-01&qualification=Degree&qualification=MCA&country=India&language=Telugu&language=Hindi&language=English&comments=+ftgyhujikldfgbikejwmf HTTP/1.1" 200 430
+0:0:0:0:0:0:0:1 - - [13/Feb/2024:15:44:52 +0530] "GET /RegistrationApplication/Registration.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [13/Feb/2024:15:44:55 +0530] "GET /RegistrationApplication/Registration.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [13/Feb/2024:15:45:28 +0530] "GET /RegistrationApplication/RegisterServlet?username=Alekhya&password=dfghjkuytrsdfgh&phonenumber=9876543212&email=alekhya0264%40gmail.com&gender=female&dob=2024-02-01&qualification=Degree&qualification=MCA&qualification=B.Tech&country=India&language=Telugu&language=Hindi&language=English&comments=+fgyhuijkopl HTTP/1.1" 200 437

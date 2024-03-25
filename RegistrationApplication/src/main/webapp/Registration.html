@@ -1,0 +1,70 @@
+<html>
+	<head>
+		<title> Registration form </title>
+	</head>
+	<body bgcolor="pink" >
+		<h2> Registration Form </h2>
+
+		<form method="get" action="RegisterServlet">
+
+			<label> <b>UserName: </b></label>
+				<input type="text" name="username" required/>
+			<br><br>
+
+			<label> <b>Password: </b></label>
+				<input type="password" name="password" required/>
+			<br><br>
+
+			<label> <b>Phone Number: </b></label>
+				<input type="number" name="phonenumber" required/>
+			<br><br>
+
+			<label> <b>Email: </b></label>
+				<input type="email" name="email" required/>
+			<br><br>
+
+			<label> <b>Gender: </b></label>
+				<input type="radio" name="gender"  value="Male" required/>Male
+				<input type="radio" name="gender" value="female" required/>Female
+			<br><br>
+
+			<label> <b>DOB: </b></label>
+				<input type="date" name="dob" required/>
+			<br><br>
+		
+			<label> <b>Qualification: </b></label>
+				<input type="checkbox" name="qualification" value="Degree"/>Degree
+				<input type="checkbox" name="qualification" value="MCA"/>MCA
+				<input type="checkbox" name="qualification" value="B.Tech"/>B.Tech
+				<input type="checkbox" name="qualification" value="M.Tech"/>M.Tech
+			<br><br>
+
+			<label> <b>Country: </b></label>
+				<select name="country">
+					<option>India</option>
+					<option>Korea</option>
+					<option>America</option>
+					<option>China</option>
+					<option>Africa</option>
+				</select>
+			<br><br>
+
+			<label> <b>Languages: </b></label>
+				<select name="language" size="3" multiple>
+					<option>Telugu</option>
+					<option>Hindi</option>
+					<option>English</option>
+					<option>Kanada</option>
+
+				</select>
+			<br><br>
+
+			<label> <b>Description: </b></label>
+				<textarea name="comments" rows='5' col='25'> </textarea>
+			<br><br>
+
+			<input type="submit" value="Register"/>
+
+		</form>
+	</body>
+</html>
